@@ -21,18 +21,16 @@ body{
     text-align: center;
 }
 
-.wrapper{
+.main-wrapper{
     display: flex;
-    flex-wrap: nowrap;
-
 }
 
-h1, p {
-    color: #777;
+section{
     background: #ebebeb;
+    width: 495px;
+    height: 300px;
     margin: 10px;
-    height: 50px;
-    padding-top: 10px;
+    text-align: center;
 }
 
 article{
@@ -41,6 +39,14 @@ article{
     margin: 10px;
     height: 60%;
     padding: 10px;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    margin: 10px;
+    height: 50px;
+    padding-top: 10px;
 }
 
 aside{
@@ -54,13 +60,5 @@ footer{
     margin: 10px;
     background-color: #ebebeb;
     padding: 30px;
-    text-align: center;
-}
-
-section{
-    background: #ebebeb;
-    width: 495px;
-    height: 300px;
-    margin: 10px;
     text-align: center;
 }
